@@ -1,0 +1,16 @@
+name: winnipeg
+channels:
+ - r
+ - bioconda
+ - conda-forge
+
+dependencies:
+ - python=3.6
+ - dill
+ - pandas
+ - notebook
+ - seaborn
+ - jupyter_contrib_nbextensions
+ - mock
+ - nose
+ - conda-forge::ddt # data-driven test (unittest-related)
