@@ -14,3 +14,6 @@ dependencies:
  - mock
  - nose
  - conda-forge::ddt # data-driven test (unittest-related)
+ - conda-forge::geopandas
+ - pip:
+   - sodypy
